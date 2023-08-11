@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="top">
+      <div class="area">
+        <p id="day-name">Day</p>
+        <input type="number" placeholder="DD" id="day">
+        <p class="required-field" id="day-required">This field is required </p>
+        <p class="required-field" id="day-invalid">Must be a valid day</p>
+      </div>
+      <div class="area">
+        <p id="month-name">Month</p>
+        <input type="number" placeholder="MM" id="month"> 
+        <p class="required-field" id="month-required">This field is required </p>
+        <p class="required-field" id="month-invalid">Must be a valid month</p>
+      </div>
+      <div class="area">
+        <p id="year-name">Year</p>
+        <input type="number" placeholder="YYYY" id="year"> 
+        <p class="required-field" id="year-required">This field is required </p>
+        <p class="required-field" id="year-invalid">Must be a valid year</p>       
+      </div>
+    </div>
+    
+    <div class="middle">
+      <div class="line"></div>
+      <button id="submitButton"><img src="assets/images/icon-arrow.svg" alt="icon-arrow"></button>
+    </div>
+    
+
+    <div class="result">
+      <div class="result-area">
+        <p id="years-result">--</p>
+        <span id="year-word">years</span>
+      </div>
+      <div class="result-area">
+        <p id="months-result">--</p>
+        <span id="month-word">months</span>
+      </div>
+      <div class="result-area">
+        <p id="days-result">--</p>
+        <span id="day-word">days</span>
+      </div>
+      
+    </div>
+       
+  </div>
+
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
